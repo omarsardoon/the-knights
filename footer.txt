@@ -1,0 +1,30 @@
+ <div class="text-bg-primary p-3 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="Logo Shapes 56.png" >
+                        <a>aviour care</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, doloremque id! Sequi obcaecati, beatae praesentium sint consequatur minima. </p>
+                    </div>
+                    <div class="col-2 offset-1">
+                        <h4>company</h4>
+                        <h6>about</h6>
+                        <h6>find a doctor</h6>
+                        <h6>apps</h6>
+                    </div>
+                    <div class="col-2 offset-1">
+                        <h4>region</h4>
+                        <h6>  link</h6>
+                        <h6>  link</h6>
+                        <h6>  link</h6>
+                        
+                    </div>
+                    <div class="col-2 ">
+                        <h4>help</h4>
+                        <h6>help center</h6>
+                        <h6>instruction</h6>
+                        <h6>contact support</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
