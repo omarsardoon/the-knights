@@ -1,0 +1,82 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+.team-srction{
+    margin-top: 75%;
+}
+.team-title h1{
+    font-size: 50px;
+    color:#3C567B;
+    text-align: center;
+    position: relative;
+}
+.team-cards{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+
+.team-card{
+    background: linear-gradient(183deg, #6888C8 -8.57%, #5A98F2 82.96%);
+    border-radius: 50px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.6s ease;
+    width: calc(33.33% - 20px);
+}
+
+.team-card:hover{
+    transform: translatey(-12px);
+}
+
+.team-image img{
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+.team-detail h3{
+    color: #fff;
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.team-detail p{
+    color:#3C567B;
+    font-size: 18px;
+}
+
+
+.text-bg-primary p-3{
+    background: linear-gradient(183deg, #6888C8 -8.57%, #5A98F2 82.96%);
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .team-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-card{
+        width: 85%;
+        margin: 25px auto;
+    }
+
+    
+}
